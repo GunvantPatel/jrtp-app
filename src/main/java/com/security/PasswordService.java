@@ -5,7 +5,7 @@ import java.util.Base64.Decoder;
 import java.util.Base64.Encoder;
 
 public class PasswordService {
-
+	String name = " Gunvant";
 	public static String encode(String txt) {
 		Encoder encoder = Base64.getEncoder();
 		return encoder.encodeToString(txt.getBytes());
@@ -15,7 +15,7 @@ public class PasswordService {
 	
 	
 	
-	String name = " Gunvant";
+
 	public static String decode(String encodeTxt) {
 		Decoder decoder = Base64.getDecoder();
 		byte[] decode = decoder.decode(encodeTxt);
