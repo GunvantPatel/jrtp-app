@@ -13,6 +13,9 @@ public class PasswordService {
 	
 	int j =21;
 	
+	
+	
+	String name = " Gunvant";
 	public static String decode(String encodeTxt) {
 		Decoder decoder = Base64.getDecoder();
 		byte[] decode = decoder.decode(encodeTxt);
